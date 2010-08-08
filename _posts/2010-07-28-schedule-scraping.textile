@@ -1,9 +1,7 @@
 ---
-layout: posts
+layout: post
 title: "Schedule Scraping (aka The Real Semantic Web)"
 ---
-
-h2. {{ page.title }}
 
 I was recently responsible for organizing a trip to "Adobe MAX 2010":http://max.adobe.com for a few folks.  By and large conference schedule postings seem to focus on the individual attendee and don't scale well to group planning.
 

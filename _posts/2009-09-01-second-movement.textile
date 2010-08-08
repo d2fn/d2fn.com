@@ -1,13 +1,11 @@
 ---
-layout: posts
+layout: post
 title: "Visual Music Making with Processing and openFrameworks"
 ---
 
-h2. {{ page.title }}
-
 After seeing some of the work of folks like "Golan Levin":http://flong.com and "Ben Fry":http://benfry.com I was inspired to learn a little more about "openFrameworks":http://openframeworks.cc and "Processing":http://processing.org.  This is a log of a project I eventually called _second movement_ that came as a result.
 
-The goal of this project was to build something that responds to full body input by playing back pleasing sights and sounds to the audience.  As motion is detected (via an attached web cam) it is highlighted in a revolving color spectrum.  In addition, motion is mapped onto a configurable musical scale with individual notes being represented as on-screen sprites.  The result is intended to be pleasing to both the eyes and ears.
+The goal of this project was to build something that responds to full body input with pleasing sights and sounds.  As motion is detected (via an attached web cam) it is highlighted in a revolving color spectrum.  In addition, motion is mapped onto a configurable musical scale with individual notes being represented as on-screen sprites.  The result is intended to be pleasing to both the eyes and ears.
 
 The following is a video capture of the original version of second movement written in the Processing environment.
 

@@ -1,9 +1,7 @@
 ---
-layout: posts
+layout: post
 title: "Gravitational Generative Art"
 ---
-
-h2. {{ page.title }}
 
 This project nicknamed _kepler_ aimed to build unique, generative artwork.  Each execution fills a virtual "universe" with a number of particles of varying mass.  As gravitational forces are exerted on one another, the universe forces color hue changes which show the paths traced by each particle over time.  While the goal is to produce interesting static images, watching each unfold is half the fun. Here is a video demo showing a few iterations ("BoC":http://boardsofcanada.com lighting up the cones).  The first few iterations show limited particle history while later ones leave it intact.  _I'll post some more interesting static captures to flickr soon_
 

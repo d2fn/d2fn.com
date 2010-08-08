@@ -1,12 +1,10 @@
 ---
-layout: posts
-title: "Cassandra: Princples and Application"
+layout: post
+title: "Cassandra: Principles and Application"
 ---
 
-h2. {{ page.title }}
+Here is a paper I wrote on principles of the "Cassandra":http://cassandra.apache.org distributed key-value store for grad school. This was a part of a semester project for my Distributed Systems class at the University of Illinois Urbana-Champaign. Also included is a case study, not of social network application which most uses seem to target, but facilitating consumer-oriented search for flights.  The following is the abstract and the paper may be read in its entirety "here":/cassandra-cs591-su10-fthrstn2.pdf.
 
-Here is a paper I wrote on principles of the "Cassandra":http://cassandra.apache.org distributed key-value store for grad school.  Also included is a case study, not of social network application which most uses seem to target, but facilitating consumer-oriented search for flights.  The following is the abstract but the whole "paper":/cassandra-cs591-su10-fthrstn2.pdf is available too.
-
-bq. Cassandra is a distributed database designed to be highly scalable both in terms of storage volume and request throughput while not being subject to any single point of failure. This paper presents an archi- tectural overview of Cassandra and discusses how its design is founded in fundamental principles of dis- tributed systems. Merits of this design and practical use are given throughout this discussion. Addition- ally, a project is supplied demonstrating how Cassan- dra can be leveraged to store and query high-volume, consumer-oriented airline flight data.
+bq. Cassandra is a distributed database designed to be highly scalable both in terms of storage volume and request throughput while not being subject to any single point of failure. This paper presents an architectural overview of Cassandra and discusses how its design is founded in fundamental principles of distributed systems. Merits of this design and practical use are given throughout this discussion. Additionally, a project is supplied demonstrating how Cassandra can be leveraged to store and query high-volume, consumer-oriented airline flight data.
 
 

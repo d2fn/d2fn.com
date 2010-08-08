@@ -1,9 +1,7 @@
 ---
-layout: posts
+layout: post
 title: "Face Shuffling with Processing"
 ---
-
-h2. {{ page.title }}
 
 _Shuffled Viewer_ is a second project done with "Processing":http://processing.org as a way to experiement with facial recognition.  This app simply displays noise until faces are detected.  At this point it will shuffle the last 50 or so faces it has detected and play them back blended with the original noice.  The central face is also split into quadrants randomly at which point each quadrant is shuffled independently of the other mixing and matching faces in the crowd.  I've often thought this might be something cool to put up at halloween party.
 
