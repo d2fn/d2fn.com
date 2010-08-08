@@ -1,0 +1,8 @@
+---
+layout: posts
+title: "Gravitational Generative Art"
+---
+
+h2. {{ page.title }}
+
+
