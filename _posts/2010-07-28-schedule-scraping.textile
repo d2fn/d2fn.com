@@ -1,0 +1,8 @@
+---
+layout: posts
+title: "Schedule Scraping and the Downfall of the Semantic Web"
+---
+
+h2. {{ page.title }}
+
+lorem ipsum

@@ -5,4 +5,13 @@ title: "Gravitational Generative Art"
 
 h2. {{ page.title }}
 
+This project nicknamed _kepler_ aimed to build unique, generative artwork.  Each execution fills a virtual "universe" with a number of particles of varying mass.  As gravitational forces are exerted on one another, the universe forces color hue changes which show the paths traced by each particle over time.  While the goal is to produce interesting static images, watching each unfold is half the fun. Here is a video demo showing a few iterations ("BoC":http://boardsofcanada.com lighting up the cones).  The first few iterations show limited particle history while later ones leave it intact.  _I'll post some more interesting static captures to flickr soon_
 
+<object width="640" height="480"> 
+<param name="allowfullscreen" value="true"> 
+<param name="allowscriptaccess" value="always"> 
+<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8459008&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"> 
+<embed src="http://vimeo.com/moogaloop.swf?clip_id=8459008&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="480"> 
+</object>
+
+The "source code":http://github.com/dietrichf/kepler can be found on my "github page":http://github.com/dietrichf.
