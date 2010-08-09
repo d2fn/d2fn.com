@@ -13,9 +13,26 @@ h2 {
 h2.post-title { font-size: 130%; margin-bottom: 0px; }
 h3 { font-size: 100%; }
 
-#header { font-size: 80%; border-width: 0 0 1px 0; border-style: dashed; border-color: #A0A0A0; padding: 0 0 7px 0; }
-#header h1 { padding: 0; margin: 0px 0px 7px 0px; font-size: 180%;}
+#header {
+font-size: 80%;
+border-width: 0 0 1px 0;
+border-style: dashed;
+border-color: #A0A0A0;
+padding: 0 0 7px 0;
+}
+
+#header h1 {
+padding: 0;
+margin: 0px 0px 7px 0px;
+font-size: 180%;
+text-align: left;
+}
 #header h1 a, #header h1 a:visited { color: #000; }
+
+p.nav {
+margin-top:  0px;
+margin-bottom: 0px;
+}
 
 a { text-decoration: none;
 	color: #ca4a12;
@@ -38,9 +55,20 @@ border-color: #AFAFAF;
 border-width: 0;
 }
 
+code {
+border-color: #AFAFAF;
+border-width: 0px 0px 1px 0px;
+border-style: dotted;
+background-color: #f5eeea;
+font-weight: bold;
+}
+
+ul.posts li {
+list-style: none;
+}
 ul.posts li span {
   float: right;
-  color: #888;
+  color: #868686;
 }
 
 #related li { font-size: 85%; }
@@ -50,12 +78,13 @@ border-width: 1px 0 0 0;
 border-color: #A0A0A0;
 text-align: right;
 border-style: dashed;
-font-size: 85%;
+font-size: 65%;
+color: #464646;
 }
 
 #footer a {
 text-decoration: none;
-color: #000000;
+color: #464646;
 }
 
 small {
@@ -78,6 +107,7 @@ line-height: 1.4em;
 padding: 0px 4px 0px 10px;
 margin: 0 0 0 1.2em;
 }
+
 
 
 

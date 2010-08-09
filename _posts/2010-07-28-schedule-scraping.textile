@@ -17,7 +17,7 @@ The web inspector built in to Safari will show any additional files being downlo
 
 !/images/safwebinspector.png!
 
-Bingo.  We see a file sessions.json and speakers.json which, upon closer inspection contain all the information we need about the session schedule.  Some ugly command line magic (omitted here) gives us a flat file with each session guid on its own line. 
+Bingo.  We see a files <code>sessions.json</code> and <code>speakers.json</code> which, upon closer inspection contain all the information we need about the session schedule.  Some ugly command line magic (omitted here) gives us a flat file with each session guid on its own line. 
 
 h3. Putting it all together
 
@@ -39,11 +39,11 @@ downloads up to date schedule information and generates a few outputs.
 
 * An iCalendar file with all session details: <code>max2010-all.ics</code>
 * A linear agenda layed out in HTML for carrying around at the conference: <code>max2010-all.html</code>  All description and time information is included inline, as well as a numeral next to each session title showing how many times that session is duplicated over the course of the conference.  This turned out to be an important part of recognizing when we could skip a session and catch it later if there was too much going on in that time slot.
-* A helper file <code>all-sessions-report.tsv</code> that includes the guids and session names of all sessions in the input file.  This is useful for grepping through for buzzword coverage.  For example, I would grep for keywords like Android or HTML in <code>skipped-sessions-report.tsv</code> and add those sessions into <code>our-sessions.txt</code> and generate a new schedule (then regenerate skipped-sessions.txt per above).
-* A CouchDB compatible JSON dump of sessions: max2010-all.json
+* A helper file <code>all-sessions-report.tsv</code> that includes the guids and session names of all sessions in the input file.  This is useful for grepping through for buzzword coverage.  For example, I would grep for keywords like Android or HTML in <code>skipped-sessions-report.tsv</code> and add those sessions into <code>our-sessions.txt</code> and generate a new schedule (then regenerate <code>skipped-sessions.txt</code> per above).
+* A CouchDB compatible JSON dump of sessions: <code>max2010-all.json</code>
 
 
-h3. CouchDB ftw
+h3. CouchDB ftw!
 
 To make things more interesting, why not generate a CouchDB compatible dump out of all of this?  After all the data is JSON and playing with data in Couch is fun.  We just need to do two things.
 

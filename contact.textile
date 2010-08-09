@@ -1,0 +1,13 @@
+---
+layout: default
+title: me?
+---
+
+If you have questions about the material here feel free to contact me at d@dfeatherston.com.  I'm also active on a few other online services.
+
+* "@d2fn":http://twitter.com/d2fn on twitter
+* "github.com/dietrichf":http://github.com/dietrichf
+* "flickr":http://www.flickr.com/photos/iamdietrich/sets/
+* "vimeo.com/dietrich":http://vimeo.com/dietrich
+* "8tracks.com/dietrich":http://8tracks.com/dietrich
+
