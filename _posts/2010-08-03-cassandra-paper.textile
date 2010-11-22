@@ -3,7 +3,7 @@ layout: post
 title: "Cassandra: Principles and Application"
 ---
 
-Here is a paper I wrote on principles of the "Cassandra":http://cassandra.apache.org distributed key-value store for grad school. This was a part of a semester project for my Distributed Systems class at the University of Illinois Urbana-Champaign. Also included is a case study, not of social network application which most uses seem to target, but facilitating consumer-oriented search for flights.  The following is the abstract and the paper may be read in its entirety "here":/cassandra-cs591-su10-fthrstn2.pdf.
+The following is a paper I wrote on the "Cassandra":http://cassandra.apache.org distributed key-value store as part of my graduate work at the University of Illinois at Urbana-Champaign. Also included is a case study, not of social network application which most uses seem to target, but facilitating consumer-oriented search for flights.  The following is the abstract and the paper may be read in its entirety "here":/cassandra-cs591-su10-fthrstn2.pdf.
 
 bq. Cassandra is a distributed database designed to be highly scalable both in terms of storage volume and request throughput while not being subject to any single point of failure. This paper presents an architectural overview of Cassandra and discusses how its design is founded in fundamental principles of distributed systems. Merits of this design and practical use are given throughout this discussion. Additionally, a project is supplied demonstrating how Cassandra can be leveraged to store and query high-volume, consumer-oriented airline flight data.
 
