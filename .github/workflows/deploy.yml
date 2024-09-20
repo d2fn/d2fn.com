@@ -1,0 +1,32 @@
+name: Deploy PHP Site to Linode
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Sync files to Linode server
+      run: |
+        rsync -avz --delete \
+          --exclude '.git*' \
+          --exclude '.github' \
+          ./ \
+          d@d2fn.com:/var/www/d2fn.com/html
+
+    - name: Restart Nginx (optional if needed)
+      run: |
+        ssh d@2fn.com "sudo systemctl restart nginx"
+
