@@ -1,12 +1,76 @@
----
-layout: default
-title: Dietrich Featherston
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietrich Featherston</title>
+    <style>
+        /* Set the background color and ensure the whole page takes up 100% height */
+        body {
+            margin: 25px;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            height: 100vh;
+            background-color: #f5f5f5; /* Light background for contrast */
+            font-family: 'Baskerville', 'Adobe Caslon', Garamond, Times, 'Nimbus Roman No9 L';
+        }
 
+        /* Styling for the card */
+        .card {
+            background-color: white;
+            padding: 30px 50px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 640px;
+            border-radius: 10px;
+        }
 
-<h2>stuff i've done</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
-  {% endfor %}
-</ul>
+        /* Add class and fixed font styling */
+        .card h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Dietrich Featherston</h1>
+        Current River, Missouri / Bay Area, California<br>
+        Backend Engineering at Netflix. Ex Apple, GitHub, Boundary, ISS<br>
+        <br>
+
+        [ <a href="https://vimeo.com/d2fn">Artwork</a> | <a href="https://github.com/d2fn">Code</a> | <a href="https://x.com/d2fn">X</a> ]<br>
+
+        <p>
+            <strong>Talks:</strong>
+            <ul class="posts">
+                <li><a href="pdf/phillyete2015slides.pdf">Philly ETE 2015 - First, Movement: Using time-series data to better understand our products and infrastructure</a></li>
+                <li><a href="http://vimeo.com/52398797">RICON2012 - Modern Radiology for Distributed Systems</a></li>
+                <li><a href="http://vimeo.com/42902962">Boundary Tech Talks - Large-scale OLAP with Kobayashi</a></li>
+            </ul>
+        </p>
+
+        <p>
+            <b>Patents</b>:
+            <ul>
+                <li><a href="https://patents.google.com/patent/US11340084B1/en?oq=11340084">Routing with benefit accumulation, 2022, Apple, Inc.</a>(<a href="pdf/US11340084.pdf">pdf</a>)</li>
+            </ul>
+        </p>
+        <p>
+            <a href="mailto:d@d2fn.com">d@d2fn.com</a>
+        </p>
+    </div>
+
+</body>
+</html>
